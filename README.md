@@ -3,7 +3,7 @@
 МК, установленный на плате: GD32F307VCT6  
 MOXA Uport 1110, RS-232  
 Самопальный проводок:  
-<img width="50%" height="50%" alt="unnamed" src="https://github.com/user-attachments/assets/045417d5-7762-42ef-9732-50e170e9818a" />
+<img width="50%" height="50%" alt="unnamed" src="https://github.com/user-attachments/assets/045417d5-7762-42ef-9732-50e170e9818a" />  
 И мокса, и разъем на плате - вилки, так что нужна такая шляпа. Все проводки паять пин-в-пин, кроме tx и rx. Их соединять крест-накрест.  
 
 # Документация
