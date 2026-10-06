@@ -22,6 +22,8 @@
 #define RTE_RTOS_FreeRTOS_CORE          /* RTOS FreeRTOS Core */
 /* ARM.FreeRTOS::RTOS:Coroutines:11.3.0 */
 #define RTE_RTOS_FreeRTOS_COROUTINE     /* RTOS FreeRTOS Co-routines */
+/* ARM.FreeRTOS::RTOS:Event Groups:11.3.0 */
+#define RTE_RTOS_FreeRTOS_EVENTGROUPS   /* RTOS FreeRTOS Event Groups */
 /* ARM.FreeRTOS::RTOS:Heap:Heap_4:11.3.0 */
 #define RTE_RTOS_FreeRTOS_HEAP_4        /* RTOS FreeRTOS Heap 4 */
 /* ARM.FreeRTOS::RTOS:Timers:11.3.0 */
@@ -32,6 +34,8 @@
 #define RTE_DEVICE_STDPERIPHERALS_EXTI
 /* GigaDevice::Device:GD32F30x_StdPeripherals:GPIO:2.2.0 */
 #define RTE_DEVICE_STDPERIPHERALS_GPIO
+/* GigaDevice::Device:GD32F30x_StdPeripherals:I2C:2.2.0 */
+#define RTE_DEVICE_STDPERIPHERALS_I2C
 /* GigaDevice::Device:GD32F30x_StdPeripherals:MISC:2.2.0 */
 #define RTE_DEVICE_STDPERIPHERALS_MISC
 /* GigaDevice::Device:GD32F30x_StdPeripherals:PMU:2.2.0 */

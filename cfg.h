@@ -5,4 +5,6 @@ void leds_config();
 
 void usart_config();
 
-void dma_for_usart0_config(void);
+void dma_for_usart0_config();
+
+void i2c_config();

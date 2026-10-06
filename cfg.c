@@ -14,6 +14,7 @@ extern volatile uint8_t tx_buf[TX_RX_BUF_SIZE];
 
 void rcu_config() 
 {
+    rcu_periph_clock_enable(RCU_GPIOB);
     rcu_periph_clock_enable(RCU_GPIOC);
     rcu_periph_clock_enable(RCU_GPIOE);
 }
@@ -78,4 +79,21 @@ void dma_for_usart0_config(void)
     
     usart_dma_receive_config(USART0, USART_DENR_ENABLE);
     usart_dma_transmit_config(USART0, USART_DENT_ENABLE);
+}
+
+void i2c_config()
+{
+    RCU_APB1EN |= 1 << 21;
+    
+    GPIO_CTL0(GPIOB) &= ~(0xFF << 24);
+    GPIO_CTL0(GPIOB) |= (0xF << 24); // PB6 opend drain, speed up to 50 MHz // I2C0_SCL
+    GPIO_CTL0(GPIOB) |= (0xF << 28); // PB7 opend drain, speed up to 50 MHz // I2C0_SDA
+    
+    I2C_CTL1(I2C0) = 60; // MHz - APB1 freq
+    I2C_CKCFG(I2C0) = 300;
+    I2C_RT(I2C0) = 61;
+    
+    I2C_CTL1(I2C0) |= 0xF << 8; // EVIE and BUFIE p. 489 RM
+    
+    I2C_CTL0(I2C0) |= 1 | (1 << 10); // I2C and ACK EN
 }

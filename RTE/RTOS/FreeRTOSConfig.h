@@ -225,21 +225,21 @@
  * FreeRTOS/source/timers.c source file must be included in the build if
  * configUSE_TIMERS is set to 1.  Default to 0 if left undefined.  See
  * https://www.freertos.org/RTOS-software-timer.html. */
-#define configUSE_TIMERS                0
+#define configUSE_TIMERS                1
 
 /* configTIMER_TASK_PRIORITY sets the priority used by the timer task.  Only
  * used if configUSE_TIMERS is set to 1.  The timer task is a standard FreeRTOS
  * task, so its priority is set like any other task.  See
  * https://www.freertos.org/RTOS-software-timer-service-daemon-task.html  Only
  * used if configUSE_TIMERS is set to 1. */
-#define configTIMER_TASK_PRIORITY       (2)
+#define configTIMER_TASK_PRIORITY       (configMAX_PRIORITIES - 1)
 
 /* configTIMER_TASK_STACK_DEPTH sets the size of the stack allocated to the
  * timer task (in words, not in bytes!).  The timer task is a standard FreeRTOS
  * task.  See
  * https://www.freertos.org/RTOS-software-timer-service-daemon-task.html Only
  * used if configUSE_TIMERS is set to 1. */
-#define configTIMER_TASK_STACK_DEPTH    ((uint16_t)128)
+#define configTIMER_TASK_STACK_DEPTH    (configMINIMAL_STACK_SIZE*2)
 
 /* configTIMER_QUEUE_LENGTH sets the length of the queue (the number of discrete
  * items the queue can hold) used to send commands to the timer task.  See
@@ -674,7 +674,7 @@
 #define INCLUDE_uxTaskGetStackHighWaterMark    0
 #define INCLUDE_xTaskGetIdleTaskHandle         0
 #define INCLUDE_eTaskGetState                  0
-#define INCLUDE_xTimerPendFunctionCall         0
+#define INCLUDE_xTimerPendFunctionCall         1
 #define INCLUDE_xTaskAbortDelay                0
 #define INCLUDE_xTaskGetHandle                 0
 #define INCLUDE_xTaskResumeFromISR             1

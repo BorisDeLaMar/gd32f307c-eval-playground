@@ -13,6 +13,7 @@
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_dma.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_exti.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_gpio.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_i2c.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_misc.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_rcu.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_spi.h \

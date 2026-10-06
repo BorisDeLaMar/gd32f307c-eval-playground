@@ -10,6 +10,9 @@
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\event_groups.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\timers.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h \
-  cfg.h my_tasks.h irqs.h utils.h
+  cfg.h my_tasks.h irqs.h utils.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h

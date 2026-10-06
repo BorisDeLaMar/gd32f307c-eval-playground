@@ -10,6 +10,8 @@
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\event_groups.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\timers.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_dma.h \
@@ -24,6 +26,7 @@
   RTE\_Target_1\RTE_Components.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_exti.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_gpio.h \
+  C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_i2c.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_misc.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_pmu.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_rcu.h \
@@ -31,4 +34,4 @@
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_timer.h \
   C:\Users\moreev_ay\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.3\Device\Firmware\Peripherals\inc\gd32f30x_usart.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h utils.h
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h defines.h utils.h

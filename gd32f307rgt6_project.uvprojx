@@ -485,6 +485,12 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
+      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Event Groups" Cvendor="ARM" Cversion="11.3.0" condition="FreeRTOS Event Groups">
+        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.54" url="https://www.keil.com/pack/" vendor="ARM" version="11.3.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
       <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Heap" Cvariant="Heap_4" Cvendor="ARM" Cversion="11.3.0" condition="FreeRTOS Heap">
         <package name="CMSIS-FreeRTOS" schemaVersion="1.7.54" url="https://www.keil.com/pack/" vendor="ARM" version="11.3.0"/>
         <targetInfos>
@@ -522,6 +528,12 @@
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="GPIO" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU">
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.3"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
+      <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="I2C" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU">
         <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.3"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
@@ -604,6 +616,14 @@
       <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_gpio.c" version="2.2.0">
         <instance index="0">RTE\Device\GD32F307RG\gd32f30x_gpio.c</instance>
         <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="GPIO" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.3"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_i2c.c" version="2.2.0">
+        <instance index="0">RTE\Device\GD32F307RG\gd32f30x_i2c.c</instance>
+        <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="I2C" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU"/>
         <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.3"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
